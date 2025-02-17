@@ -3,6 +3,7 @@ SMAX client written in Python
 
 How to Use:
 ------------
+```python
 from smax_client import SMAXClient
 
 smax = SMAXClient("https://smax.sample.com", "tenant_id", "username", "password")
