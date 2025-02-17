@@ -21,3 +21,6 @@ entity_object = {
 response = smax.create_entity(entity_object)
 
 print(response)
+
+```
+For more details you can visit [OpenText API's](https://docs.microfocus.com/api) page.
