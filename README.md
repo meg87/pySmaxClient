@@ -1,5 +1,5 @@
 # pySmaxClient
-SMAX client written in Python
+OpenText Service Management (SMAX) client written in Python
 
 How to Use:
 ------------
