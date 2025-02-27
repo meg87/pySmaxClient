@@ -130,9 +130,9 @@ class SMAXClient:
 
         data = {"operation": operation}
         if entities:
-            data["entities"] = [entities]
+            data["entities"] = entities
         if relationships:
-            data["relationships"] = [relationships]
+            data["relationships"] = relationships
 
         return self.make_request("POST", "/ems/bulk", data=data)
 
